@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/deemashlayer
   gitUsername: deemashlayer
   gitBranch: main
+services:
+- serviceName: project.dimatest1125_9.integrations:jghfd
+  packages:
+  - name: DimaTest1125_9Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2020
